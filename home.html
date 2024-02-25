@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="home.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <title>ecommerce</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+  </head>
+  <body>
+    <header class="navigation">
+      <a class="logo" href="#">motors</a>
+      <form action="">
+        <input type="search" id="search-bar" />
+        <label for="search-bar" class="fas fa-search"></label>
+      </form>
+      <div class="icons">
+        <div id="menu-bar" class="fas fa-bars"></div>
+        <div id="theme-toggler" class="fas fa-sun"></div>
+        <div id="menu-likes" class="fas fa-heart"></div>
+        <a href="#" class="fas fa-shopping-cart"></a>
+        <a href="login.html" class="fas fa-user"></a>
+      </div>
+    </header>
+
+    <nav class="navbar">
+      <div class="user">
+        <img src="pictures/pdp.jpg" alt="" />
+        <h3>Touaiti Mazen</h3>
+      </div>
+      <div class="links">
+        <a href="#home">home</a>
+        <a href="#products">products</a>
+
+        <a href="#deal">deal of today</a>
+        <a href="#contact">contact</a>
+      </div>
+      <div id="close" class="fas fa-times"></div>
+    </nav>
+    <nav class="like-bar">
+      <div class="headlikes">
+        <div class="fas fa-heart"></div>
+        <h1>favorites</h1>
+      </div>
+      <div id="closelikes" class="fas fa-times"></div>
+      <div id="liked-products" class="liked-products">
+        <!-- Liked products will be dynamically added here -->
+      </div>
+    </nav>
+    <section class="home" id="home">
+      <div class="content">
+        <span>special offert</span>
+        <h3>sale up to 50% off</h3>
+        <a href="#" class="btn">shop now</a>
+      </div>
+      <div class="image">
+        <img src="pictures/special offer.jpg" alt="" />
+      </div>
+    </section>
+    <section class="category">
+      <h1 class="heading">shop by <span>categogy</span></h1>
+      <div class="box-container">
+        <div class="box">
+          <img src="pictures/motor (7).jpg" alt="" />
+          <div class="content">
+            <span>upto 50% off</span>
+            <h3>sport</h3>
+            <a href="#" class="btn">see more</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="pictures/motor (5).jpg" alt="" />
+          <div class="content">
+            <span>upto 50% off</span>
+            <h3>touring</h3>
+            <a href="#" class="btn">see more</a>
+          </div>
+        </div>
+        <div class="box">
+          <img src="pictures/motor (9).jpg" alt="" />
+          <div class="content">
+            <span>upto 50% off</span>
+            <h3>naked</h3>
+            <a href="#" class="btn">see more</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="products" id="products">
+      <h1 class="heading">latest <span>products</span></h1>
+      <div class="swiper-container product-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="slide">
+              <div class="icons">
+                <a class="heart-icon far fa-heart"></a>
+
+                <a href="#" class="fas fa-eye"></a>
+              </div>
+              <div class="image">
+                <img src="pictures/motor (1).jpg" alt="" />
+              </div>
+              <div class="content">
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                  <i class="far fa-star"></i>
+                  <span>( 250K reviews )</span>
+                </div>
+                <h3>price</h3>
+                <div class="price">$15k <span>$18k</span></div>
+                <a href="#" class="btn">add to cart</a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="slide">
+              <div class="icons">
+                <a class="heart-icon far fa-heart"></a>
+
+                <a href="#" class="fas fa-eye"></a>
+              </div>
+              <div class="image">
+                <img src="pictures/motor (2).jpg" alt="" />
+              </div>
+              <div class="content">
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                  <span>( 25K reviews )</span>
+                </div>
+                <h3>price</h3>
+                <div class="price">$18k <span>$20k</span></div>
+                <a href="#" class="btn">add to cart</a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="slide">
+              <div class="icons">
+                <a class="heart-icon far fa-heart"></a>
+
+                <a href="#" class="fas fa-eye"></a>
+              </div>
+              <div class="image">
+                <img src="pictures/motor (3).jpg" alt="" />
+              </div>
+              <div class="content">
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <span>( 20K reviews )</span>
+                </div>
+                <h3>price</h3>
+                <div class="price">$26k <span>$30k</span></div>
+                <a href="#" class="btn">add to cart</a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="slide">
+              <div class="icons">
+                <a class="heart-icon far fa-heart"></a>
+
+                <a href="#" class="fas fa-eye"></a>
+              </div>
+              <div class="image">
+                <img src="pictures/motor (4).jpg" alt="" />
+              </div>
+              <div class="content">
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                  <span>( 50K reviews )</span>
+                </div>
+                <h3>price</h3>
+                <div class="price">$15k <span>$16k</span></div>
+                <a href="#" class="btn">add to cart</a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="slide">
+              <div class="icons">
+                <a class="heart-icon far fa-heart"></a>
+
+                <a href="#" class="fas fa-eye"></a>
+              </div>
+              <div class="image">
+                <img src="pictures/motor (5).jpg" alt="" />
+              </div>
+              <div class="content">
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                  <span>( 50K reviews )</span>
+                </div>
+                <h3>price</h3>
+                <div class="price">$15k <span>$16k</span></div>
+                <a href="#" class="btn">add to cart</a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="slide">
+              <div class="icons">
+                <a class="heart-icon far fa-heart"></a>
+
+                <a href="#" class="fas fa-eye"></a>
+              </div>
+              <div class="image">
+                <img src="pictures/motor (6).jpg" alt="" />
+              </div>
+              <div class="content">
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                  <span>( 50K reviews )</span>
+                </div>
+                <h3>price</h3>
+                <div class="price">$15k <span>$16k</span></div>
+                <a href="#" class="btn">add to cart</a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="slide">
+              <div class="icons">
+                <a class="heart-icon far fa-heart"></a>
+
+                <a href="#" class="fas fa-eye"></a>
+              </div>
+              <div class="image">
+                <img src="pictures/motor (7).jpg" alt="" />
+              </div>
+              <div class="content">
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                  <span>( 50K reviews )</span>
+                </div>
+                <h3>price</h3>
+                <div class="price">$15k <span>$16k</span></div>
+                <a href="#" class="btn">add to cart</a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="slide">
+              <div class="icons">
+                <a class="heart-icon far fa-heart"></a>
+
+                <a href="#" class="fas fa-eye"></a>
+              </div>
+              <div class="image">
+                <img src="pictures/motor (8).jpg" alt="" />
+              </div>
+              <div class="content">
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                  <span>( 50K reviews )</span>
+                </div>
+                <h3>price</h3>
+                <div class="price">$15k <span>$16k</span></div>
+                <a href="#" class="btn">add to cart</a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="slide">
+              <div class="icons">
+                <a class="heart-icon far fa-heart"></a>
+
+                <a href="#" class="fas fa-eye"></a>
+              </div>
+              <div class="image">
+                <img src="pictures/motor (9).jpg" alt="" />
+              </div>
+              <div class="content">
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                  <span>( 50K reviews )</span>
+                </div>
+                <h3>price</h3>
+                <div class="price">$15k <span>$16k</span></div>
+                <a href="#" class="btn">add to cart</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="deal" id="deal">
+      <h1 class="heading">special <span>deal</span></h1>
+      <div class="row">
+        <div class="content">
+          <span class="discount">upto 40% off</span>
+          <h3 class="text">deal of the day</h3>
+          <div class="count-down">
+            <div class="box">
+              <h3 id="days">00</h3>
+              <span>days</span>
+            </div>
+            <div class="box">
+              <h3 id="hours">00</h3>
+              <span>hours</span>
+            </div>
+            <div class="box">
+              <h3 id="minutes">00</h3>
+              <span>minutes</span>
+            </div>
+            <div class="box">
+              <h3 id="seconds">00</h3>
+              <span>seconds</span>
+            </div>
+          </div>
+          <a href="#" class="btn">shop now</a>
+        </div>
+        <div class="image">
+          <img src="pictures/deal.jpg" alt="" />
+        </div>
+      </div>
+    </section>
+    <section class="contact" id="contact">
+      <h1 class="heading">contact <span>me</span></h1>
+      <div class="box-container">
+        <div class="box">
+          <div class="icons"><a class="fas fa-phone"></a></div>
+          <div class="content">
+            <span> number</span>
+            <h3>+21654609427</h3>
+          </div>
+        </div>
+        <div class="box">
+          <div class="icons"><a class="fas fa-envelope"></a></div>
+          <div class="content">
+            <span> email</span>
+            <h3><a href="#">touaitimazen@gmail.com</a></h3>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  </body>
+</html>
